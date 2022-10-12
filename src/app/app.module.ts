@@ -14,6 +14,7 @@ import { NavComponent } from './commons/nav/nav.component';
 import { FooterComponent } from './commons/footer/footer.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { HomeComponent } from './pages/home/home.component';
+import { CursosCortosComponent } from './pages/cursos-cortos/cursos-cortos.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HomeComponent } from './pages/home/home.component';
     NavComponent,
     FooterComponent,
     NotFoundComponent,
-    HomeComponent
+    HomeComponent,
+    CursosCortosComponent
   ],
   imports: [
     BrowserModule,
